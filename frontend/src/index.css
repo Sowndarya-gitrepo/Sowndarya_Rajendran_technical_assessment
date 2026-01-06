@@ -1,0 +1,47 @@
+/* :root {
+  --bg: #f8fafc;
+  --node-bg: #ffffff;
+  --border: #e2e8f0;
+  --primary: #6366f1;      
+  --secondary: #10b981;    
+  --text: #0f172a;
+  --muted: #64748b;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --radius: 10px;
+  --font: 'Inter', system-ui, sans-serif;
+} */
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}  */
+
+/* index.css */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont;
+  background: radial-gradient(
+      circle at 20% 20%,
+      rgba(139, 92, 246, 0.35),
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 80% 80%,
+      rgba(168, 85, 247, 0.25),
+      transparent 40%
+    ),
+    linear-gradient(180deg, #070312, #0b061a 60%, #05010d);
+  color: #e9d5ff;
+}
+
+

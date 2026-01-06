@@ -1,0 +1,29 @@
+.submit-btn {
+ background: linear-gradient(
+    180deg,
+    rgba(88, 28, 135, 0.9),
+    rgba(59, 7, 100, 0.9)
+  );
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 22px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: all 0.2s ease;
+
+}
+
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.submit-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 28px rgba(99, 102, 241, 0.5);
+}
