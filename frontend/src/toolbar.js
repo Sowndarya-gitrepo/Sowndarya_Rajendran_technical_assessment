@@ -25,3 +25,6 @@ export const PipelineToolbar = () => {
         </div>
     );
 };
+ /*“This component represents the toolbar containing various draggable node types. 
+ Each node type is represented by a reusable DraggableNode component, allowing users to drag and drop different types of nodes 
+ onto the canvas to build their pipeline.”*/
