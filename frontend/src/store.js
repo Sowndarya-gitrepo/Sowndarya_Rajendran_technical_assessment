@@ -10,21 +10,21 @@ import {
   import './ui.css';
 
 
-export const useStore = create((set, get) => ({
+export const useStore = create((set, get) => ({   /* Zustand store for managing nodes and edges in the pipeline UI */
     nodes: [],
     edges: [],
     getNodeID: (type) => {
-        const newIDs = {...get().nodeIDs};
-        if (newIDs[type] === undefined) {
-            newIDs[type] = 0;
+        const newIDs = {...get().nodeIDs};         /* keeps track of unique IDs for each node type */
+        if (newIDs[type] === undefined) {          /* if no ID exists for this type, initialize it to 0 */
+            newIDs[type] = 0;                      
         }
         newIDs[type] += 1;
         set({nodeIDs: newIDs});
-        return `${type}-${newIDs[type]}`;
+        return `${type}-${newIDs[type]}`;         /* return a unique ID by combining type and count */
     },
-    addNode: (node) => {
+    addNode: (node) => {                         /* function to add a new node to the nodes array */
         set({
-            nodes: [...get().nodes, node]
+            nodes: [...get().nodes, node]        /* append the new node to the existing nodes */
         });
     },
     onNodesChange: (changes) => {

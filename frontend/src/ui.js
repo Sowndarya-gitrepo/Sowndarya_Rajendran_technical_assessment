@@ -124,6 +124,7 @@ export const PipelineUI = () => {                /* main UI component */
     </>
   )
 }
-/*This file sets up a fully interactive drag-and-drop pipeline builder using React Flow and Zustand, supports custom node 
-types,handles node creation via drag-and-drop, and manages global state efficiently while providing a polished UI with 
-grid snapping, controls, and a minimap*/
+/*This file sets up a fully interactive drag-and-drop pipeline builder using React Flow and 
+Zustand, supports custom node types,handles node creation via drag-and-drop, and manages 
+global state efficiently while providing a polished UI with grid snapping, controls, and a 
+minimap*/
